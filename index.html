@@ -44,27 +44,26 @@
         <div class="max-w-6xl mx-auto">
             <header class="flex justify-between items-end mb-6 border-b border-slate-700 pb-4">
                 <div>
-                    <h1 class="text-3xl font-bold text-blue-500">HERMES_PERFORMANCE_OS <span class="text-slate-600 text-xl">v2.0-TUI</span></h1>
-                    <p class="text-slate-500 text-sm">System monitoring for AI Agent core. All read-only. No auth.</p>
+                    <h1 class="text-3xl font-bold text-blue-500">HERMES_PERFORMANCE_OS <span class="text-slate-600 text-xl">v2.1-TUI (EST)</span></h1>
+                    <p class="text-slate-500 text-sm">System monitoring for AI Agent core. Token counts are estimated via text length.</p>
                 </div>
                 <div class="text-right font-mono text-xs text-slate-500">
                     <div>UPTIME: 100%</div>
-                    <div>LAST_SYNC: 2026-04-19 15:06:15</div>
+                    <div>LAST_SYNC: 2026-04-19 15:11:36</div>
                 </div>
             </header>
 
             <div class="grid grid-cols-1 md:grid-cols-4 gap-4 mb-6">
                 <div class="tui-panel">
-                    <div class="tui-header">TOTAL_TOKENS</div>
+                    <div class="tui-header">EST_TOTAL_TOKENS</div>
                     <div class="p-4 text-center">
-                        <p class="text-3xl font-bold tui-value">0</p>
+                        <p class="text-3xl font-bold tui-value">798,248</p>
                     </div>
                 </div>
                 <div class="tui-panel">
                     <div class="tui-header">EFFICIENCY</div>
                     <div class="p-4 text-center">
-                        <p class="text-3xl font-bold text-green-400">92%</p>
-                    </div>
+                        <p class="text-3xl font-bold text-green-400">92%</p></div>
                 </div>
                 <div class="tui-panel">
                     <div class="tui-header">SKILL_BASE</div>
@@ -75,14 +74,14 @@
                 <div class="tui-panel">
                     <div class="tui-header">TASK_COUNT</div>
                     <div class="p-4 text-center">
-                        <p class="text-3xl font-bold text-orange-400">2805</p>
+                        <p class="text-3xl font-bold text-orange-400">2849</p>
                     </div>
                 </div>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div class="tui-panel">
-                    <div class="tui-header">TOKEN_USAGE_TIMELINE</div>
+                    <div class="tui-header">EST_TOKEN_USAGE_TIMELINE</div>
                     <div class="p-4">
                         <canvas id="tokenChart" height="200"></canvas>
                     </div>
@@ -105,10 +104,10 @@
             new Chart(ctxToken, {
                 type: 'line',
                 data: {
-                    labels: [],
+                    labels: ["2026-04-13", "2026-04-14", "2026-04-15", "2026-04-16", "2026-04-17", "2026-04-18", "2026-04-19", "cron--"],
                     datasets: [{ 
-                        label: 'Tokens', 
-                        data: [], 
+                        label: 'Est. Tokens', 
+                        data: [349613, 74380, 3657, 30347, 75478, 706, 73012, 191055], 
                         borderColor: '#58a6ff', 
                         backgroundColor: 'rgba(88, 166, 255, 0.1)',
                         borderWidth: 2,
@@ -136,7 +135,7 @@
                 data: {
                     labels: ["web_search", "terminal", "write_file", "execute_code", "skill_view", "read_file"],
                     datasets: [{ 
-                        data: [4, 57, 11, 32, 12, 13], 
+                        data: [4, 65, 11, 40, 12, 13], 
                         backgroundColor: ['#58a6ff', '#bc8cff', '#ff7b72', '#d29922', '#3fb950', '#8b949e'], 
                         borderWidth: 2,
                         borderColor: '#161b22'
