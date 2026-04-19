@@ -1,17 +1,50 @@
 {
   "summary": {
-    "status": "Optimized",
+    "status": "Estimated",
     "efficiency_score": "92%",
-    "last_update": "2026-04-19 15:06:15",
-    "total_tokens": 0
+    "last_update": "2026-04-19 15:11:36",
+    "total_tokens": 798248
   },
   "metrics": {
-    "daily_tokens": [],
+    "daily_tokens": [
+      {
+        "date": "2026-04-13",
+        "tokens": 349613
+      },
+      {
+        "date": "2026-04-14",
+        "tokens": 74380
+      },
+      {
+        "date": "2026-04-15",
+        "tokens": 3657
+      },
+      {
+        "date": "2026-04-16",
+        "tokens": 30347
+      },
+      {
+        "date": "2026-04-17",
+        "tokens": 75478
+      },
+      {
+        "date": "2026-04-18",
+        "tokens": 706
+      },
+      {
+        "date": "2026-04-19",
+        "tokens": 73012
+      },
+      {
+        "date": "cron--",
+        "tokens": 191055
+      }
+    ],
     "tool_usage": {
       "web_search": 4,
-      "terminal": 57,
+      "terminal": 65,
       "write_file": 11,
-      "execute_code": 32,
+      "execute_code": 40,
       "skill_view": 12,
       "read_file": 13
     },
@@ -49,6 +82,6 @@
         "mlops"
       ]
     ],
-    "total_tasks": 2805
+    "total_tasks": 2849
   }
 }
