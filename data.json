@@ -2,12 +2,54 @@
   "summary": {
     "status": "Optimized",
     "efficiency_score": "92%",
-    "last_update": "2026-04-20 00:14:47",
-    "total_tokens": 0
+    "last_update": "2026-04-20 10:36:05",
+    "total_tokens": 2682988
   },
   "metrics": {
-    "daily_tokens": [],
-    "tool_usage": {},
+    "daily_tokens": [
+      {
+        "date": "2026-04-13",
+        "tokens": 1029982
+      },
+      {
+        "date": "2026-04-14",
+        "tokens": 208488
+      },
+      {
+        "date": "2026-04-15",
+        "tokens": 28298
+      },
+      {
+        "date": "2026-04-16",
+        "tokens": 67805
+      },
+      {
+        "date": "2026-04-17",
+        "tokens": 282309
+      },
+      {
+        "date": "2026-04-18",
+        "tokens": 706
+      },
+      {
+        "date": "2026-04-19",
+        "tokens": 274300
+      },
+      {
+        "date": "2026-04-20",
+        "tokens": 11126
+      },
+      {
+        "date": "cron--",
+        "tokens": 779974
+      }
+    ],
+    "tool_usage": {
+      "skill_view": 11,
+      "read_file": 7,
+      "execute_code": 4,
+      "terminal": 2
+    },
     "skills_growth": [
       [
         "mcp",
@@ -42,6 +84,6 @@
         "mlops"
       ]
     ],
-    "total_tasks": 3060
+    "total_tasks": 3097
   }
 }
