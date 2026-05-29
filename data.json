@@ -2,8 +2,8 @@
   "summary": {
     "status": "Optimized",
     "efficiency_score": "92%",
-    "last_update": "2026-05-24 12:01:05",
-    "total_tokens": 7230017
+    "last_update": "2026-05-30 00:03:09",
+    "total_tokens": 7255822
   },
   "metrics": {
     "daily_tokens": [
@@ -129,7 +129,7 @@
       },
       {
         "date": "cron--",
-        "tokens": 2986124
+        "tokens": 3011929
       },
       {
         "date": "df6d-ba-93",
@@ -141,6 +141,9 @@
       [
         "mcp",
         "red-teaming",
+        "yuanbao",
+        ".usage.json",
+        ".usage.json.lock",
         "github",
         "gaming",
         "user-preferences",
@@ -162,6 +165,7 @@
         "smart-home",
         "data-science",
         "autonomous-ai-agents",
+        ".curator_state",
         ".git",
         "email",
         "leisure",
@@ -172,6 +176,6 @@
         "mlops"
       ]
     ],
-    "total_tasks": 10315
+    "total_tasks": 10398
   }
 }
